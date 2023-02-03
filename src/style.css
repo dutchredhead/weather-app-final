@@ -128,3 +128,9 @@ img {
 .icon-current-weather {
   height: 65px;
 }
+
+.active {
+  color: black !important;
+  cursor: default;
+  text-decoration: none;
+}
