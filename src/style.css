@@ -119,3 +119,12 @@ img {
   padding: 5px;
   border-radius: 29px;
 }
+
+.icon-temp {
+  display: flex;
+  align-items: center;
+}
+
+.icon-current-weather {
+  height: 50px;
+}
