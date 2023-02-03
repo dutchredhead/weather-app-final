@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather app</title>
-    <link rel="stylesheet" href="src/style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,6 +26,8 @@
       src="https://kit.fontawesome.com/364e231dd8.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="box">
@@ -45,11 +47,12 @@
         <i class="fa-solid fa-backward fa-3x margin-right"></i>
         <img class="main-icon" src="images/cloud.svg" />
         <div class="text-main-icon">
-          <h2>Amsterdam</h2>
-          <h3>24°</h3>
+          <h2 id="city"></h2>
+          <h3><span id="temperature"></span>°</h3>
           <p>
-            Friday 12:16, Cloudy <br />
-            Humidity: 55%, Wind: 5 km/h
+            Friday 12:16, <span id="description"></span><br />
+            Humidity: <span id="humidity"></span>%, Wind:
+            <span id="wind"></span> km/h
           </p>
         </div>
         <i class="fa-solid fa-forward fa-3x margin-left"></i>
