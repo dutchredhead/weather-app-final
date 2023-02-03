@@ -122,9 +122,9 @@ img {
 
 .icon-temp {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .icon-current-weather {
-  height: 50px;
+  height: 65px;
 }
