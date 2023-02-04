@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 750px;
+  width: 870px;
   height: 600px;
   background-color: #474747;
   margin-top: 25px;
@@ -137,4 +137,11 @@ img {
 
 .icon-weather-forecast {
   height: 40px;
+}
+
+.row {
+  --bs-gutter-x: 2rem !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding: 10px;
 }
