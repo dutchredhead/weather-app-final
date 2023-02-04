@@ -134,3 +134,7 @@ img {
   cursor: default;
   text-decoration: none;
 }
+
+.icon-weather-forecast {
+  height: 40px;
+}
